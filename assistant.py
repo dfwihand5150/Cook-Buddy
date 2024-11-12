@@ -12,6 +12,7 @@ def checktime(sentences):
     for sentence in sentences:
         setence.lower()
         sentence.lower()
+        sentence.lower()
         match = re.search(r'(\d+)\s*minutes', sentence) # Checks if minutes is within the sentence
         
         if match:
