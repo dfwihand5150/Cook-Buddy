@@ -6,7 +6,7 @@ import csv
 import openai
 
 # Set your OpenAI API key
-openai.api_key = 
+openai.api_key = ""
 
 # Define the prompt template
 meal_prompt_template = """Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.
